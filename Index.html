@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="Estilos/CSS.css">
+    <link rel="icon" href="Imagens/Javascript.png">
+    <title>Atividade JavaScript</title>
+</head>
+<body>
+    <header>
+        Funcionalidades JavaScript
+    </header>
+    <main>
+        <div class="container superior">
+            <div>
+                <select id="sel_fundo">
+                    <option value="" selected disabled>Escolha uma cor de fundo...</option>
+                    <option value="opc_fundo_azul">Azul</option>
+                    <option value="opc_fundo_cinza">Cinza</option>
+                    <option value="opc_fundo_verde">Verde</option>
+                </select>
+                <br>
+                <div id="div_cor_fundo">
+                    Área de teste da cor de fundo.
+                </div>
+            </div>
+            <div>
+                Escolha uma cor para a fonte:
+                <br>
+                <input type="radio" name="rb_fonte" value="opc_fonte_marrom">Marrom
+                <input type="radio" name="rb_fonte" value="opc_fonte_vermelho">Vermelho
+                <input type="radio" name="rb_fonte" value="opc_fonte_violeta">Violeta
+            </div>
+            <div>
+                Escolha uma decoração para a fonte:
+                <br>
+                <input type="checkbox" id="cb_linha_meio" value="opc_linha_meio">Linha
+                <input type="checkbox" id="cb_borda" value="opc_borda">Borda
+            </div>
+            <div>
+                Escreva algo:
+                <br>
+                <input type="text" id="txt_novo" size="20" maxlength="20">
+                <br>
+                <input type="button" id="bt_troca_texto" value="Atualizar">
+            </div>
+            <div id="div_area_teste">
+                Área de Teste.
+            </div>
+        </div>
+        <div class="container inferior">
+            <div>
+                <select id="sel_header">
+                    <option value="" selected disabled>Escolha um fundo para o cabeçalho...</option>
+                    <option value="cb_pink">Rosa</option>
+                    <option value="cb_magenta">Magenta</option>
+                    <option value="cb_cyan">Ciano</option>
+                </select>
+            </div>
+            <div>
+                <input type="checkbox" id="cb_bg" value="opc_bg">Imagem de Fundo
+                <div class="bg">
+                    Área de teste de Imagem de Fundo.
+                </div>
+            </div>
+            <div>
+                <input type="checkbox" id="cb_opp" value="opc_opp">Opacidade (Transparência)
+                <br>
+                <img id="ops" src="Imagens/Javascript.png" alt="Logo JavaScript">
+            </div>
+            <div>
+                Escolha uma fonte:
+                <br>
+                <input type="button" class="Audiowide" value="Audiowide">
+                <input type="button" class="Monoton" value="Monoton">
+                <p id="font">Vai trocar a fonte aqui!</p>
+            </div>
+        </div>
+    </main>
+    <script src="Scripts/jscript.js"></script>
+</body>
+</html>
